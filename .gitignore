@@ -1,0 +1,18 @@
+# ---- Data: not redistributable and/or too large for GitHub ----
+dataset/exp_data
+dataset/exp_data_partial
+zip_data/
+zip_data_stale_partial/
+backup_partial_*/
+
+# Data lists point at local .mat slices
+dataset/lists/
+
+# ---- Experiment outputs ----
+experiments/
+result/
+*.log
+
+# ---- Python ----
+__pycache__/
+*.pyc
